@@ -1,0 +1,78 @@
+body {
+    margin: 10px;
+    background-color: #d3d7cf;
+}
+
+.thumbnail img {
+    height: 150px;
+    width: 100%;
+}
+
+.errorHighlight {
+    border: 2px solid #ef2929;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 235px 235px 235px 235px 235px;
+    grid-gap: 6px;
+    background-color: transparent;
+    color: #444;
+}
+
+.searchBox {
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 25%;
+    font-size: 20px;
+    width: 50%;
+    height: auto;
+}
+
+.center_Text {
+    text-align:center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.buyerMessage {
+    border: 2px solid #0ad224;
+    background-color: #b5e271;
+    border-radius: 5px;
+    width: 55%;
+    float:left;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.sellerMessage {
+    border: 2px solid #128bd4;
+    background-color: #bac3f5;
+    float:right;
+    border-radius: 5px;
+    padding: 10px;
+    width: 55%;
+    margin: 10px 0;
+}
+
+
+.messageDiv {
+      height: 60%;
+      margin: 0 auto;
+      overflow-y: scroll;
+}
+
+.box {
+    background-color: #ebebe0;
+    color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 120%;
+}
+
+.heading.text {
+    color: #edd400;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 25px;
+}
